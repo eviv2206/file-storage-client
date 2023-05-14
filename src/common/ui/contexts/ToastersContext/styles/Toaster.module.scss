@@ -1,0 +1,62 @@
+
+
+.toaster_container{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (max-width: 480px) {
+    width: 100vw;
+  }
+}
+
+.toast_error{
+  width: 288px;
+  min-height: 94px;
+  border-radius: 0;
+  background: lightcoral;
+  color: black;
+
+
+  @media screen and (max-width: 480px) {
+    width: 90vw;
+    margin-bottom: 10px;
+  }
+}
+
+.toaster_notification {
+  width: 288px;
+  height: 94px;
+  border-radius: 0;
+  background: lightblue;
+  color: black;
+
+
+  @media screen and (max-width: 480px) {
+    width: 90vw;
+    margin-bottom: 10px;
+  }
+}
+
+.toast_success{
+  width: 288px;
+  height: 94px;
+  border-radius: 0;
+  background: lightgreen;
+  color: black;
+
+
+  @media screen and (max-width: 480px) {
+    width: 90vw;
+    margin-bottom: 10px;
+  }
+}
+
+.toaster_body{
+  font-family: 'Roboto', serif;
+  font-size: 16px;
+
+  div{
+    padding-left: 7px;
+  }
+}

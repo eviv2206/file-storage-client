@@ -1,0 +1,36 @@
+.Files{
+
+  margin-left: 10px;
+
+  &_buttons {
+    display: flex;
+    gap: 10px;
+
+    button {
+      background-color: lightpink;
+      width: 70px;
+      border: none;
+      border-radius: 8px;
+
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &_inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+  }
+
+  &_response {
+
+    &_item {
+      border-bottom: 1px solid black;
+    }
+  }
+}

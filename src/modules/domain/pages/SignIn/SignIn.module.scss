@@ -1,0 +1,31 @@
+.SignIn{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50vw;
+
+  &_Containter {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &_submit {
+    width: 30vw;
+    height: 40px;
+    align-self: center;
+    background-color: rgba(94, 150, 252, 1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+}
